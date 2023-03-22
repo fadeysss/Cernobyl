@@ -1,6 +1,9 @@
 /* ========================================================================= */
 /*	Preloader
 /* ========================================================================= */
+document.addEventListener('DOMContentLoaded', function() {
+    new GreenAudioPlayer('.example');
+});
 
 jQuery(window).load(function(){
 
@@ -181,7 +184,7 @@ function init() {
     // Basic options for a simple Google Map
     // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
 
-	    var myLatLng = new google.maps.LatLng(22.402789, 91.822156);
+	    var myLatLng = new google.maps.LatLng(51.273540, 30.221343);
 
 	    var mapOptions = {
 	        zoom: 15,
@@ -198,7 +201,7 @@ function init() {
         styles: [{
             featureType: 'water',
             stylers: [{
-                color: '#46bcec'
+                color: '#444444'
             }, {
                 visibility: 'on'
             }]

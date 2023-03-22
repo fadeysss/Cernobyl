@@ -1,3 +1,18 @@
+/**
+*
+* ---------------------------------------------------------------------------
+*
+* Template : Blue - A One-Page HTML Portfolio/Business Template
+* Author : Muhammad Morshd
+* Author URI : http://morsheds.com
+*
+* --------------------------------------------------------------------------- 
+*
+*/
+
+/* =================================== */
+/*	Basic Style 
+/* =================================== */
 
 body {
     background-color: #fff;
@@ -50,7 +65,7 @@ main > section {
 }
 
 .btn-blue {
-    background-color: rgba(0,158,227, 0.78);
+    background-color: #222222;
     box-shadow: 0 -2px 0 rgba(0, 0, 0, 0.15) inset;
     padding: 15px 55px;
     color: #fff;
@@ -63,7 +78,7 @@ main > section {
 }
 
 .bg-blue {
-    background-color: #009EE3;
+    background-color: #cccccc;
 }
 
 /* Sweep To Right */
@@ -133,7 +148,7 @@ main > section {
 }
 
 .btn-effect:hover, .btn-effect:focus, .btn-effect:active {
-	color: #009EE3;
+	color: #cccccc;
 }
 
 .btn-effect:hover:before, .btn-effect:focus:before, .btn-effect:active:before {
@@ -164,7 +179,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #cccccc;
     content: "";
     display: block;
     left: 45%;
@@ -343,7 +358,11 @@ h1.navbar-brand {
     vertical-align: middle;
     display: table-cell;
 }
+.animated-fadeInDown {
+    -webkit-text-stroke-width: 1.3px;
+    -webkit-text-stroke-color: #000000;
 
+}
 .caption-content h2 {
     color: #fff;
     font-size: 52px;
@@ -479,14 +498,14 @@ h1.navbar-brand {
 }
 
 .fancybox-next span {
-    background: url("../img/right.png") no-repeat scroll center center #009ee3;
+    background: url("../img/right.png") no-repeat scroll center center #cccccc;
     height: 50px;
     width: 50px;
     right: 0;
 }
 
 .fancybox-prev span {
-    background: url("../img/left.png") no-repeat scroll center center #009ee3;
+    background: url("../img/left.png") no-repeat scroll center center #cccccc;
     height: 50px;
     width: 50px;
     left: 0;
@@ -497,7 +516,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #009EE3;
+    background-color: #cccccc;
     color: #fff;
 }
 
@@ -577,9 +596,9 @@ h1.navbar-brand {
 }
 
 .service-item:hover .service-icon {
-    border: 3px solid #009ee3;
+    border: 3px solid #cccccc;
     margin-bottom: 20px;
-    color: #009ee3;
+    color: #cccccc;
 }
 
 .service-icon i {
@@ -676,7 +695,7 @@ ul.external li a {
 }
 
 ul.external li a:hover {
-    background-color: #009EE3;
+    background-color: #cccccc;
     color: #fff;
 }
 
@@ -722,7 +741,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: #181818;
     padding: 70px 0 40px;
 }
 
@@ -819,7 +838,7 @@ ul.external li a:hover {
 }
 
 .price-table.featured .value {
-    background-color: #009EE3;
+    background-color: #cccccc;
     color: #fff;
 }
 
@@ -868,7 +887,7 @@ ul.external li a:hover {
 
 .price-table.featured ul li:last-child,
 .price-table ul li:last-child:hover {
-    background-color: #009EE3;
+    background-color: #cccccc;
 }
 
 .price-table.featured ul li:last-child a,
@@ -923,10 +942,12 @@ ul.external li a:hover {
 }
 
 .social-button li a:hover {
-    color: #008ECC;
-    border: 2px solid #008ECC;
+    color: #2E2E2E;
+    border: 2px solid #2E2E2E;
 }
-
+.sexy {
+    color: #ffff;
+}
 
 /*=================================================================
 	Contact
@@ -955,7 +976,7 @@ textarea.form-control {
 }
 
 #submit:before {
-  background-color: #0A85BB;
+  background-color: #494949;
 }
 
 #submit.btn-effect:after {
@@ -963,7 +984,7 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
+    border-bottom: 1px solid #2E2E2E;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
@@ -1105,7 +1126,7 @@ textarea.form-control {
 }
 
 .footer-social ul li a:hover {
-    color: #009EE3;
+    color: #cccccc;
 }
 
 .footer-content > p {
@@ -1157,7 +1178,7 @@ textarea.form-control {
     }
 
     .caption-content strong {
-        font-size: 45px;
+        font-size: 405px;
     }
 
 /* about */
