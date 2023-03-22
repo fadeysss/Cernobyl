@@ -57,6 +57,14 @@ main > section {
     padding: 70px 0;
 }
 
+section#service {
+    background-color: #ffffff12;
+}
+
+section#portfolio {
+    background-color: #ffffff12;
+}
+
 .btn {
     border-radius: 0;
     border: 0;
@@ -198,6 +206,7 @@ main > section {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 
 
 /**
@@ -516,7 +525,7 @@ h1.navbar-brand {
 ==================================================================*/
 
 #about {
-    background-color: #cccccc;
+    background-color: #ffffff12;
     color: #fff;
 }
 
@@ -1024,7 +1033,7 @@ textarea.form-control {
 ==============================================================*/
 
 #footer {
-    background-color: #2e2e2e2e;
+    background-color: #ffffff12;
     padding: 70px 0;
     color: #fff;
 }
